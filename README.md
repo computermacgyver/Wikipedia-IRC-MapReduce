@@ -5,7 +5,7 @@ Wikipedia-IRC-MapReduce
 
 This Java code shows examples to parse and extract data from IRC streams of recent changes to Wikipedia chaptured with [Wikipedia-IRC-Logger](https://github.com/computermacgyver/Wikipedia-IRC-Logger) It was used to monitor the recent changes to Wikipedia in multiple language editions and the results published in [a recent article](http://arxiv.org/abs/1312.0976).
 
-Requirements
+##Requirements
 The following must be available on the classpath to compile and run:
 * Douglas Crockford's [JSON-java](https://github.com/douglascrockford/JSON-java)
 * [Hadoop](http://hadoop.apache.org/)
@@ -18,6 +18,7 @@ UsersByLangEdition parses all lines of all input files and creates a tab separat
 
 
 If you use this code in support of an academic publication, please cite:
+
     Hale, S. A. (2014). Multilinguals and Wikipedia Editing. http://arxiv.org/abs/1312.0976
   
 
